@@ -7,6 +7,7 @@
     <title>Cars</title>
 </head>
 <body>
+    
     <h1>All cars</h1>
     <x-navbar></x-navbar>
 
