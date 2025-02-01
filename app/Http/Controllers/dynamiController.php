@@ -9,7 +9,7 @@ class dynamiController
     //
     public function oneCar(int $id)
     {
-        return view('cars',['id'=> $id]);
+        return view('buy',['id'=> $id]);
     }
     public function oneProducts(int $id)
     {

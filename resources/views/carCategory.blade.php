@@ -9,11 +9,8 @@
 </head>
 <body>
     <x-navbar></x-navbar>
-    @include('components.hero')
-    <x-after-hero></x-after-hero>
-    <x-shoping-cart-tool></x-shoping-cart-tool>
-    <x-explor-all-cars></x-explor-all-cars>
-    <div class=" my-10 min-h-screen  grid grid-cols-1 gap-6 ">
+ <h1 class=" text-4xl   text-black text-wrap font-bold text-center my-5 ">Buy any Type of Car</h1>
+    <div class=" my-10 min-h-screen md:px-10 px-2 grid grid-cols-1 gap-6 ">
         <x-what-we-do-section title="Buy any type of Car" description="know with us you can buy any type of car from all Iraq and Kurdistan region" image="./images/car1.png" buttonLink="#" buttonText="Buy Right Now" imageAlt="car image" aboveTitle="FEATURED PRODUCTS" ></x-what-we-do-section>
         <x-what-we-do-section title="Buy any type of Car" description="know with us you can buy any type of car from all Iraq and Kurdistan region" image="./images/car1.png" buttonLink="#" buttonText="Buy Right Now" imageAlt="car image" aboveTitle="FEATURED PRODUCTS" ></x-what-we-do-section>
         <x-what-we-do-section title="Buy any type of Car" description="know with us you can buy any type of car from all Iraq and Kurdistan region" image="./images/car1.png" buttonLink="#" buttonText="Buy Right Now" imageAlt="car image" aboveTitle="FEATURED PRODUCTS" ></x-what-we-do-section>

@@ -10,8 +10,9 @@ use App\Http\Controllers\adminController;
 
 Route::get('/', [mainController::class,'home'])->name('home');
 Route::get('/cars', [mainController::class,'cars'])->name('cars');
-Route::get('/products', [mainController::class,'products'])->name('products');
+Route::get('/carParts', [mainController::class,'products'])->name('products');
 Route::get('/info', [mainController::class,'info'])->name('info');
+Route::view('/sellCar', 'sellCar')->name('sellCar');
 
 // dynamic routes GET
 Route::get('/cars/{id}', [dynamiController::class,'oneCar'])->name('oneCar')->where('id', '[0-9]+');
@@ -20,6 +21,7 @@ Route::get('/products/{id}', [dynamiController::class,'oneProducts'])->name('one
 
 Route::get('/info/{slug}', [dynamiController::class,'oneInfo'])->name('oneInfo')->where('slug', '[A-Za-z]+');
 
+Route::view('/car-category', 'carCategory')->name('carCategory');
 
 // dynamic routes POST
 

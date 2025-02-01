@@ -11,11 +11,11 @@ class mainController
     }
     public function cars()
     {
-        return view('cars');
+        return view('buyCars');
     }
     public function products()
     {
-        return view('products');
+        return view('carParts');
     }
     public function info()
     {
